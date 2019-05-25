@@ -1,8 +1,6 @@
 My Resume and LaTeX Template
 ============================
 
-**Weitian LI** `<wt@liwt.net>`
-
 Introduction
 ------------
 This repository holds my [resume](resume-zh+en.pdf) (Chinese and English),

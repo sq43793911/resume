@@ -1,47 +1,21 @@
 %%
-%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
-%% CC BY 4.0 License
+%% Copyright (c) 2019-2020 Qian Sun <sqandzxy@gmail.com>
 %%
-%% Résumé
-%% ------
-%% A short document (1-2 pages) to sum up the job-related accomplishments
-%% and experience.
-%%
-%% Checklist
-%% ---------
-%% * Contact Information
-%% * Work History / Experience
-%% * Education
-%% * Skills
-%% * Summary & Objective (optional)
-%% * Hobbies & Interests (optional)
-%%
-%% Credits
-%% -------
-%% * CV vs. Resume: What is the Difference? When to Use Which?
-%%   https://uptowork.com/blog/cv-vs-resume-difference
-%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
-%%   https://uptowork.com/blog/how-to-make-a-resume
-%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
-%%   https://uptowork.com/blog/entry-level-resume-example
-%%
-%% Created: 2018-04-14
 %%
 
 % English version
 \documentclass{resume}
 
+\newcommand{\Matlab}{\textsc{Matlab}\textsuperscript{\textregistered} }
+\newcommand{\Ansys}{\textsc{Ansys}\textsuperscript{\textregistered} }
+\newcommand{\Mathematica}{\textsc{Mathematica}\textsuperscript{\textregistered} }
+\newcommand{\Microsoft}{\textsc{Microsoft}\textsuperscript{\textregistered} }
+
 % File information shown at the footer of the last page
-\fileinfo{%
-  \faCopyright{} 2018--2019 Weitian LI,
-  \creativecommons{by}{4.0},
-  \githublink{liweitianux}{resume},
-  \faEdit{} \today
-}
 
-\name{Weitian}{LI}
+\name{Qian}{Sun}
 
-\keywords{BSD, Linux, Programming, Python, C, Shell, DevOps, SysAdmin}
+\keywords{Matlab, Mathematica, Programming, Construction, Material, Modalanalyse}
 
 % \tagline{\icon{\faBinoculars}} <position-to-look-for>}
 % \tagline{<current-position>}
@@ -49,13 +23,13 @@
 % \photo{<height>}{<filename>}
 
 \profile{
-  \mobile{132-6262-0332}
-  \email{liweitianux@live.com}
-  \github{liweitianux} \\
-  \degree{Ph.D. in Physics}
-  \university{Shanghai Jiao Tong University (SJTU)}
+  \mobile{+49 0152-5754-1682}
+  \email{sqandzxy@gmail.com}
+  \github{sq43793911} \\
+  \university{Techinische Universität Bergakademie Freiberg}
+  \degree{Master of Science}
   \birthday{1991 September}
-  \home{Hunan}
+  \home{Deutschland \textbullet Freiberg}
   % Custom information:
   % \icontext{<icon>}{<text>}
   % \iconlink{<icon>}{<link>}{<text>}
@@ -64,167 +38,151 @@
 \begin{document}
 \makeheader
 
+\bigskip
+
 %======================================================================
 % Summary & Objectives
 %======================================================================
-Highly-motivated Ph.D. in Physics (radio astronomy)
-with good foundations of math and statistics.
-Proficient in data modeling and analysis,
-and enthusiastic about computer and network technologies.
-With 10 years experience in Linux and BSD,
-skilled in Shell, Python, and C programming.
-Passionate about open source and share multiple projects on my
-\link{https://github.com/liweitianux}{GitHub}.
-Meanwhile a \link{https://www.dragonflybsd.org}{DragonFly BSD}
-operating system developer and a contributor to several other
-open source projects.
+Vehicle Engineering (Material and Structure Direction) graduate student with good foundations in physics, mathematics, and materials science. Proficient in structural modeling, analysis and Modal-analysis, enthusiastic about computer and network technologies, proficient in using Linux, SSH, Git and other common platforms and tools.
+Proficient in scientific computing software, Matlab and Mathematica programming, skilled in finite element analysis software such as Ansys.
+
+\bigskip
 
 %======================================================================
 \sectionTitle{Competences \& Languages}{\faWrench}
 %======================================================================
 \begin{competences}[10em]
-  \comptence{Operating Systems}{
-    \icon{\faLinux} Linux (10 years),
-    \icon{\faFreebsd} DragonFly BSD \& FreeBSD (7 years)
+  \comptence{Area of expertise}{
+    New-energy vehicles, lightweight of automobile, material handling and structure analysis, modal-analysis, MCU system design.
   }
   \comptence{Programming}{%
-    Python, C, Shell, R, Tcl/Tk
+    \textbf{\Matlab}, \quad \Mathematica, \quad R, \quad Python, \quad \textbf{C}.
   }
+\medskip
   \comptence{Tools}{%
-    SSH, Git, Make, Tmux, Vi, Ansible
+       \Ansys Products, \quad SSH, \quad Git, \quad \textbf{\LaTeX}, \quad \Microsoft \textbf{Office}, \quad Freescale\textregistered \textbf{CodeWarrior}, \quad IAR\textregistered Embedded Workbench.
   }
-  \comptence{Data Analysis}{%
-    R, Pandas; Matplotlib, ggplot2; Keras, Scikit-learn
-  }
-  \comptence{Web Development}{%
-    Flask, JavaScript, jQuery, Bootstrap
-  }
+%  \comptence{Data Analysis}{%
+%    R, Pandas; Matplotlib, ggplot2; Keras, Scikit-learn
+%  }
+%  \comptence{Web Development}{%
+%    Flask, JavaScript, jQuery, Bootstrap
+%  }
   \comptence{\icon{\faLanguage} Languages}{
+  	\textbf{Germany} --- conversant ---\textbf{TestDaf}4 \texttimes4; 
     \textbf{English} ---
       reading \& writing (good);
-      listening \& speaking (conversant)
+      listening \& speaking (good).
   }
 \end{competences}
+
+\bigskip
 
 %======================================================================
 \sectionTitle{Education}{\faGraduationCap}
 %======================================================================
 \begin{educations}
   \education%
-    {September 2013}%
-    {Shanghai Jiao Tong University}%
-    {School of Physics and Astronomy}%
-    {Physics}%
-    {Ph.D. (candidate; to graduate in the middle of 2019)}
+    {Oct. 2016}%
+    {Technische Universität Bergakademie Freiberg }%
+    {Werkstoffwissenschaft und Werkstofftechnologie}%
+    {Automotive Construction: Materials and Components}%
+    {Master. (candidate; to graduate in the middle of 2020)}
 
   \separator{0.5ex}
   \education%
-    {September 2009}%
-    [June 2013]%
-    {Shanghai Jiao Tong University}%
-    {Department of Physics and Astronomy}%
-    {Applied Physics}%
+    {September 2010}%
+    [June 2014]%
+    {Liaocheng University}%
+    {School of Mechanical and Automotive Engineering}%
+    {Vehicle engineering}%
     {Bachelor's Degree}
 \end{educations}
 
+\bigskip
+
 %======================================================================
-\sectionTitle{Computer Skills}{\faCogs}
+\sectionTitle{Skills}{\faCogs}
 %======================================================================
 \begin{itemize}
-  \item DragonFly BSD operating system developer:
-    200+ code commits; kernel and system utilities;
-    participate in discussions and anwser questions
-    in mailing lists and the IRC channel.
-  \item Use Ansible to manage a VPS running DragonFly BSD that serves
-    personal email, authoritative DNS, website, Git, IRC, etc.
-  \item Built and administrate the workstations, a 4-node computer cluster,
-    and network facilities for the team.
-  \item Participated in building and testing the SKA high-performance
-    cluster prototype (1 login node + 1 data node + 4 computing nodes)
-    in Shanghai Astronomical Observatory.
-  \item Designed and developed the whole website (Django, Bootstrap, jQuery)
-    for \enquote{The 1st China--New Zealand Joint SKA Summer School}
-    in 2014.
+  \item \textit{\textbf{\underline{Vehicle Engineering}}}:\\ 
+	Automotive Construction and Theory; New Energy Vehicle Technology, \textbf{Automotive Lightweight Technology}.
+  \item \textit{\textbf{\underline{Materials Science}}}: \\
+	Metal Material Forming and Processing, \textbf{Metal Casting and High Temperature Heat Treatment Technology}, Biomimetic Materials.
+  \item \textit{\textbf{\underline{Mechanics and kinematics}}}: \\
+	Structural analysis and simulation, vibration analysis and simulation, \textbf{modal analysis}.
+  \item \textit{\textbf{\underline{Computer Science}}}: \\
+	\textbf{Design and Debugging of MCU Systems}, Design and Debugging of Control Systems.
+  \item \textit{\textbf{\underline{Other}}}: \\
+	\textbf{Optimized design}, neural network, big data analysis.
 \end{itemize}
+
+\clearpage
 
 %======================================================================
 \sectionTitle{Personal Projects}{\faCode}
 %======================================================================
 \begin{itemize}
-  \item \link{https://github.com/liweitianux/atoolbox}{\texttt{atoolbox}}:
-    (Python, Shell)
-    Various tools collected over the years, to help manage systems,
-    do daily tasks, analyze data, etc.
-  \item \link{https://github.com/liweitianux/dfly-update}{\texttt{dfly-update}}:
-    (Shell)
-    A simple tool to update a DragonFly BSD system.
-  \item \link{https://github.com/liweitianux/openrcs}{\texttt{openrcs}}:
-    (C)
-    Enhance \texttt{OpenBSD RCS}, to make it compatible with \texttt{GNU RCS}.
-  \item \link{https://github.com/liweitianux/fg21sim}{\texttt{fg21sim}}:
-    (Python)
-    Simulate the low-frequency radio sky maps.
-  \item \link{https://github.com/liweitianux/cdae-eor}{\texttt{cdae-eor}}:
-    (Python, Keras)
-    Use a Convolutional Denoising Autoencoder (CDAE) to separate the
-    faint EoR signal.
-  \item \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}:
-    (Python, Shell, Tcl)
-    Semi-automate utilities for analyzing X-ray astronomical data.
-  \item \link{https://github.com/liweitianux/resume}{\texttt{resume}}:
-    (\LaTeX)
-    The template and source files of \emph{this} resume.
+  \item \link{https://github.com/sq43793911/Balance_Car}{\texttt{\textbf{Two-wheeled balance car}}}:(Freescale\textregistered CodeWarrior, Freescale\textregistered S12X, CCD) \\
+     Two-wheeled balance car designed and built based on Freescale Smart-Car-Cup requirements with automatic track recognition and control.
+  \item \link{https://github.com/sq43793911/TSP}{\texttt{\textbf{Analysis of multiple algorithms for TSP problems}}}:(\Matlab)\\
+    Four common optimization algorithms (genetic, ant colony, immune, taboo algorithm) were used to analyze the TSP problem, and the advantages and disadvantages of various algorithms and their application value were compared.
+  \item \link{https://github.com/sq43793911/Construction_Analysis}{\texttt{\textbf{Analysis of common elastic vibration systems}}}:(\Matlab)\\
+    Analysis of the undamped vibration, the damped vibration, the time domain characteristics of the Maxwell model, the response characteristics after excitation. And the corresponding images are generated.
+  \item \link{https://github.com/sq43793911/Projektarbeit_public}{\texttt{\textbf{Projektarbeit}}}: (\Matlab, \Mathematica, \Ansys, \LaTeX)\\
+    Modalanalyse mit Hilfe der Finite-Elemente-Methode (Modalanalysis with the Finite-Element-Method). The axial and bending vibrations of the beams and the bending vibration of the plates were modally analyzed using \Matlab and \Ansys, and modal shapes were generated.
+
 \end{itemize}
 
-%======================================================================
-\sectionTitle{Research Achievements}{\faAtom}
-%======================================================================
-\begin{itemize}
-  \item Developed the low-frequency radio sky image simulation software:
-    \link{https://github.com/liweitianux/fg21sim}{\texttt{FG21sim}}.
-  \item Developed a suite of utilities to semi-automate the
-    X-ray astronomical data analysis:
-    \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}.
-  \item Separated the faint cosmological EoR signal along the frequency
-    dimension using a Convolutional Denoising Autoencoder (CDAE).
-  \item Classified the radio galaxies in the FIRST survey according to
-    morphologies using a Convolutional Neutral Network (CNN).
-  \item Significantly improved the modeling of radio halos,
-    and integrated the instrumental effects of radio interferometers
-    into the simulation pipeline.
-  \item Improved the background modeling in X-ray spectral fitting
-    achieved more accurate and robust fitting results.
-  \item Published 2 first-author and 8 co-authored SCI papers.
-\end{itemize}
-
-%======================================================================
-\sectionTitle{Internships}{\faBriefcase}
-%======================================================================
-\begin{experiences}
-  \experience%
-    [April 2018]%
-    {August 2018}%
-    {Data Engineer @ Leadvisor Technology Inc. (startup company)}%
-    [\begin{itemize}
-      \item Search and scrape product and advertising data from Amazon web
-        (Python, Requests, BeautifulSoup).
-      \item Deployed the Airflow server and database to periodically
-        retrieve product sales and advertising data from Amazon.
-      \item Developed the website (Flask, jQuery) to help customers to
-        optimize their advertising campaigns on Amazon.
-    \end{itemize}]
-
-  \separator{0.5ex}
-  \experience%
-    [July 2013]%
-    {September 2013}%
-    {Web Developer @ 97 Suifang (startup company)}%
-    [\begin{itemize}
-      \item Developed the back-end (Django) to support user registration,
-        data storage and search.
-      \item Developed the front-end (jQuery, AJAX) to visualize the
-        temporal variations of a patient's examination indicators.
-    \end{itemize}]
-\end{experiences}
+%%======================================================================
+%\sectionTitle{Research Achievements}{\faAtom}
+%%======================================================================
+%\begin{itemize}
+%  \item Developed the low-frequency radio sky image simulation software:
+%    \link{https://github.com/liweitianux/fg21sim}{\texttt{FG21sim}}.
+%  \item Developed a suite of utilities to semi-automate the
+%    X-ray astronomical data analysis:
+%    \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}.
+%  \item Separated the faint cosmological EoR signal along the frequency
+%    dimension using a Convolutional Denoising Autoencoder (CDAE).
+%  \item Classified the radio galaxies in the FIRST survey according to
+%    morphologies using a Convolutional Neutral Network (CNN).
+%  \item Significantly improved the modeling of radio halos,
+%    and integrated the instrumental effects of radio interferometers
+%    into the simulation pipeline.
+%  \item Improved the background modeling in X-ray spectral fitting
+%    achieved more accurate and robust fitting results.
+%  \item Published 2 first-author and 8 co-authored SCI papers.
+%\end{itemize}
+%
+%%======================================================================
+%\sectionTitle{Internships}{\faBriefcase}
+%%======================================================================
+%\begin{experiences}
+%  \experience%
+%    [April 2018]%
+%    {August 2018}%
+%    {Data Engineer @ Leadvisor Technology Inc. (startup company)}%
+%    [\begin{itemize}
+%      \item Search and scrape product and advertising data from Amazon web
+%        (Python, Requests, BeautifulSoup).
+%      \item Deployed the Airflow server and database to periodically
+%        retrieve product sales and advertising data from Amazon.
+%      \item Developed the website (Flask, jQuery) to help customers to
+%        optimize their advertising campaigns on Amazon.
+%    \end{itemize}]
+%
+%  \separator{0.5ex}
+%  \experience%
+%    [July 2013]%
+%    {September 2013}%
+%    {Web Developer @ 97 Suifang (startup company)}%
+%    [\begin{itemize}
+%      \item Developed the back-end (Django) to support user registration,
+%        data storage and search.
+%      \item Developed the front-end (jQuery, AJAX) to visualize the
+%        temporal variations of a patient's examination indicators.
+%    \end{itemize}]
+%\end{experiences}
 
 \end{document}

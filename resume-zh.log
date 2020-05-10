@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  10 MAY 2020 12:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  10 MAY 2020 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1665,14 +1665,14 @@ LaTeX Font Info:    ... okay on input line 45.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(34.14322pt, 793.8318pt, 17.07182pt)
+* v-part:(T,H,B)=(42.67912pt, 790.9868pt, 11.38092pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=763.8318pt
+* \textheight=760.9868pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-75.12677pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -2184,10 +2184,9 @@ LaTeX Font Warning: Font shape `TU/SourceHanSerifSC(0)/m/it' undefined
 
 
 Overfull \hbox (4.69377pt too wide) in paragraph at lines 145--147
-[][][]\TU/SourceHanSerifSC(0)/bx/n/10 项 目 论 文 \TU/IBMPlexMono(0)/bx/n/10 (Proje
-ktarbeit)[][]\TU/IBMPlexSerif(0)/m/sc/10 : \TU/SourceHanSerifSC(0)/m/n/10 基 于 有
- 限 元 方 法 的 模 态 分 析 \TU/IBMPlexSerif(0)/m/sc/10 (Modalanalysis with the Finite-E
-lement-Method)\TU/SourceHanSerifSC(0)/m/n/10 。|
+[][][]$[]$[][]\TU/IBMPlexSerif(0)/m/sc/10 : \TU/SourceHanSerifSC(0)/m/n/10 基 于 
+有 限 元 方 法 的 模 态 分 析 \TU/IBMPlexSerif(0)/m/sc/10 (Modalanalysis with the Finite-
+Element-Method)\TU/SourceHanSerifSC(0)/m/n/10 。|
  []
 
 [1

@@ -29,7 +29,7 @@
 
 \RequirePackage[%
   a4paper,%
-  lmargin=1.5cm,rmargin=1.5cm,top=1.5cm,bottom=0.4cm,%
+  lmargin=1.5cm,rmargin=1.5cm,top=1.3cm,bottom=0.1cm,%
   includefoot,
 ]{geometry}
 \RequirePackage{xparse}

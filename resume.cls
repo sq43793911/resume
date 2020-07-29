@@ -50,6 +50,7 @@
 \RequirePackage{csquotes}
 \RequirePackage[normalem]{ulem}
 \RequirePackage{microtype}
+\RequirePackage{setspace}
 \ifdef{\@zh}{
   \RequirePackage{xeCJK}
 }{}

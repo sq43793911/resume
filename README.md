@@ -3,7 +3,7 @@ My Resume and LaTeX Template
 
 Introduction
 ------------
-This repository holds my [resume](resume-zh+en.pdf) (Chinese and English),
+This repository holds my [resume] (Chinese, English, German),
 the [resume LaTeX template](resume.cls),
 and the [Font Awesome 5 LaTeX style](fontawesome5/fontawesome5.sty).
 

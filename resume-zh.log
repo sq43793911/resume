@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  20 JUL 2020 16:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  10 SEP 2020 09:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,7 +1424,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 . Serif/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 92.
+LaTeX Info: Redefining \rmfamily on input line 93.
 \g__fontspec_family_IBMPlexMono_int=\count318
 .................................................
 . fontspec info: "defining-font"
@@ -1464,7 +1464,7 @@ e].
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 93.
+LaTeX Info: Redefining \ttfamily on input line 94.
 \g__fontspec_family_SourceHanSerifSC_int=\count319
 .................................................
 . fontspec info: "no-font-shape"
@@ -1494,67 +1494,67 @@ LaTeX Info: Redefining \ttfamily on input line 93.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfNoValueOrEmptyTF with sig. 'mmm' on line 197.
+. Defining command \IfNoValueOrEmptyTF with sig. 'mmm' on line 198.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'entries' with sig. 'o' on line 358.
+. Defining environment 'entries' with sig. 'o' on line 359.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \entry with sig. 'm m' on line 362.
+. Defining command \entry with sig. 'm m' on line 363.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'competences' with sig. 'o' on line 382.
+. Defining environment 'competences' with sig. 'o' on line 383.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \comptence with sig. 'm m' on line 386.
+. Defining command \comptence with sig. 'm m' on line 387.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'educations' with sig. '' on line 396.
+. Defining environment 'educations' with sig. '' on line 397.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \education with sig. 'm o m m m m' on line 413.
+. Defining command \education with sig. 'm o m m m m' on line 414.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'projects' with sig. '' on line 423.
+. Defining environment 'projects' with sig. '' on line 424.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \project with sig. 'm o m m m m o' on line 447.
+. Defining command \project with sig. 'm o m m m m o' on line 448.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'experiences' with sig. '' on line 457.
+. Defining environment 'experiences' with sig. '' on line 458.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \experience with sig. 'o m m o o' on line 476.
+. Defining command \experience with sig. 'o m m o o' on line 477.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'skills' with sig. '' on line 500.
+. Defining environment 'skills' with sig. '' on line 501.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \skill with sig. 'm m' on line 509.
+. Defining command \skill with sig. 'm m' on line 510.
 .................................................
 )
 Package csquotes Info: Checking for multilingual support...
@@ -1799,6 +1799,10 @@ LaTeX Info: Redefining \nameref on input line 45.
 \openout6 = `resume-zh.out'.
 
 Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceHanSerifSC' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FontAwesome5FreeSolid' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
@@ -1980,10 +1984,6 @@ Package microtype Info: Character `\textless ' is missing
 Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/FontAwesome5Brands(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SourceHanSerifSC' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -2194,11 +2194,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38458 strings out of 492970
- 784327 string characters out of 6137298
- 946510 words of memory out of 5000000
- 42018 multiletter control sequences out of 15000+600000
- 531050 words of font info for 63 fonts, out of 8000000 for 9000
+ 38462 strings out of 492970
+ 784509 string characters out of 6137298
+ 946503 words of memory out of 5000000
+ 42021 multiletter control sequences out of 15000+600000
+ 531058 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,11n,87p,10386b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 

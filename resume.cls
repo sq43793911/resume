@@ -29,7 +29,7 @@
 
 \RequirePackage[%
   a4paper,%
-  lmargin=1.5cm,rmargin=1.5cm,top=1.3cm,bottom=0.1cm,%
+  lmargin=1.5cm,rmargin=1.5cm,top=1.3cm,bottom=0.4cm,%
   includefoot,
 ]{geometry}
 \RequirePackage{xparse}
@@ -51,9 +51,22 @@
 \RequirePackage[normalem]{ulem}
 \RequirePackage{microtype}
 \RequirePackage{setspace}
+\usepackage{color}
 \ifdef{\@zh}{
   \RequirePackage{xeCJK}
 }{}
+
+\usepackage{fancyhdr}
+
+%L--rechts R--links C--center O--ungrade Seite E--grade Seite
+\fancyhead[LO,RE]{} 
+%\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\fancyhead[RO,LE]{}%Kopfzelle - ungrade Seite links und grade Seite rechts - show pagenumber
+\fancyfoot[CO,CE]{}%Fusszelle - ungrade Seite center und grade Seite center - null
+\fancyfoot[RO,RE]{\thepage/2}%Fusszelle - ungrade Seite rechts und grade Seite rechts - null
+\fancyfoot[LO,LE]{}%Fusszelle - ungrade Seite links und grade Seite links - autor, title
+\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0.4pt} 
 
 %
 % Hyperref

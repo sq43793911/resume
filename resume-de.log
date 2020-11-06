@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  11 SEP 2020 14:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  6 NOV 2020 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,6 +975,39 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (c:/texlive/2018/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
+(c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip61
+\f@nch@O@elh=\skip62
+\f@nch@O@erh=\skip63
+\f@nch@O@olh=\skip64
+\f@nch@O@orh=\skip65
+\f@nch@O@elf=\skip66
+\f@nch@O@erf=\skip67
+\f@nch@O@olf=\skip68
+\f@nch@O@orf=\skip69
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 62.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 64.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 65.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 66.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 67.
+
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -1093,7 +1126,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip70
 )
 \g__fontspec_family_IBMPlexSerif_int=\count305
 .................................................
@@ -1117,7 +1150,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 . Serif/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 93.
+LaTeX Info: Redefining \rmfamily on input line 106.
 \g__fontspec_family_IBMPlexMono_int=\count306
 .................................................
 . fontspec info: "defining-font"
@@ -1157,73 +1190,73 @@ e].
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 94.
-\leftcolwidth=\skip62
-\rightcolwidth=\skip63
+LaTeX Info: Redefining \ttfamily on input line 107.
+\leftcolwidth=\skip71
+\rightcolwidth=\skip72
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfNoValueOrEmptyTF with sig. 'mmm' on line 198.
+. Defining command \IfNoValueOrEmptyTF with sig. 'mmm' on line 211.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'entries' with sig. 'o' on line 359.
+. Defining environment 'entries' with sig. 'o' on line 372.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \entry with sig. 'm m' on line 363.
+. Defining command \entry with sig. 'm m' on line 376.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'competences' with sig. 'o' on line 383.
+. Defining environment 'competences' with sig. 'o' on line 396.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \comptence with sig. 'm m' on line 387.
+. Defining command \comptence with sig. 'm m' on line 400.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'educations' with sig. '' on line 397.
+. Defining environment 'educations' with sig. '' on line 410.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \education with sig. 'm o m m m m' on line 414.
+. Defining command \education with sig. 'm o m m m m' on line 427.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'projects' with sig. '' on line 424.
+. Defining environment 'projects' with sig. '' on line 437.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \project with sig. 'm o m m m m o' on line 448.
+. Defining command \project with sig. 'm o m m m m o' on line 461.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'experiences' with sig. '' on line 458.
+. Defining environment 'experiences' with sig. '' on line 471.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \experience with sig. 'o m m o o' on line 477.
+. Defining command \experience with sig. 'o m m o o' on line 490.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'skills' with sig. '' on line 501.
+. Defining environment 'skills' with sig. '' on line 514.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \skill with sig. 'm m' on line 510.
+. Defining command \skill with sig. 'm m' on line 523.
 .................................................
 )
 Package csquotes Info: Checking for multilingual support...
@@ -1260,11 +1293,11 @@ LaTeX Font Info:    ... okay on input line 41.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(36.98866pt, 805.21274pt, 2.84544pt)
+* v-part:(T,H,B)=(36.98866pt, 796.67726pt, 11.38092pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=775.21274pt
+* \textheight=766.67726pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
 * \topmargin=-72.28133pt
@@ -1616,9 +1649,9 @@ LaTeX Font Warning: Font shape `TU/IBMPlexSerif(0)/m/sc' undefined
 
 
 Overfull \hbox (9.00005pt too wide) in paragraph at lines 49--50
-[]\TU/IBMPlexSerif(0)/m/sc/12 Master \TU/IBMPlexSerif(0)/bx/n/12 Fahrzeugbau: W
-erkstoffe und Komponenten \TU/IBMPlexSerif(0)/m/sc/12 mit guten Grundlagen in P
-hysik, Math-
+[]\TU/IBMPlexSerif(0)/m/sc/12 Master \TU/IBMPlexSerif(0)/bx/sc/12 Fahrzeugbau: 
+Werkstoffe und Komponenten \TU/IBMPlexSerif(0)/m/sc/12 mit guten Grundlagen in 
+Physik, Math-
  []
 
 Package microtype Info: Character `,' is missing
@@ -1840,117 +1873,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--99
 
  []
 
-Package microtype Info: Character `,' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `:' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `;' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `!' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `?' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `~ (= ~)' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\%' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `*' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `+' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `(' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `)' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `/' is missing
-(microtype)             in font `TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textendash ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textemdash ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteleft ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteright ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblleft ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblright ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `_' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbackslash ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbraceleft ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbraceright ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textless ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textgreater ' is missing
-(microtype)             in font `\TU/FontAwesome5Brands(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Overfull \hbox (2.10242pt too wide) in paragraph at lines 132--134
-\TU/IBMPlexSerif(0)/bx/sc/12 Experimentelle und simulative Modalanalyse eines W
-erkzeugschaftes beim HSC-Frä-
- []
-
 [1
 
 ]
+Overfull \hbox (2.10242pt too wide) in paragraph at lines 132--134
+[][][]\TU/IBMPlexSerif(0)/bx/sc/12 Experimentelle und simulative Modalanalyse e
+ines Werkzeugschaftes beim HSC-Frä-
+ []
+
+
 Overfull \hbox (0.20108pt too wide) in paragraph at lines 135--137
-\TU/IBMPlexSerif(0)/bx/sc/12 Modalanalyse mit Hilfe der Finite-Elemente-Methode
-. \TU/IBMPlexSerif(0)/m/sc/12 Im Rahmen der ausgeschriebe-
+[][][]\TU/IBMPlexSerif(0)/bx/sc/12 Modalanalyse mit Hilfe der Finite-Elemente-M
+ethode. \TU/IBMPlexSerif(0)/m/sc/12 Im Rahmen der ausgeschriebe-
  []
 
 
@@ -1961,8 +1895,8 @@ alyse mittels der Finite-Elemente-
 
 
 Overfull \hbox (8.28963pt too wide) in paragraph at lines 146--148
-\TU/IBMPlexSerif(0)/m/sc/12 Ungedämpfte Schwingungen, gedämpfte Schwingungen, d
-ie Zeitbereichseigenschaften
+[][][]\TU/IBMPlexSerif(0)/m/sc/12 Ungedämpfte Schwingungen, gedämpfte Schwingun
+gen, die Zeitbereichseigenschaften
  []
 
 
@@ -1985,12 +1919,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36625 strings out of 492970
- 728471 string characters out of 6137298
- 883459 words of memory out of 5000000
- 40201 multiletter control sequences out of 15000+600000
- 533826 words of font info for 77 fonts, out of 8000000 for 9000
+ 36750 strings out of 492970
+ 729833 string characters out of 6137298
+ 882499 words of memory out of 5000000
+ 40323 multiletter control sequences out of 15000+600000
+ 533818 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,11n,87p,10386b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,87p,10403b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume-de.pdf (2 pages).

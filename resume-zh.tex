@@ -5,14 +5,8 @@
 
 % Chinese version
 \documentclass[zh]{resume}
+\pagestyle{fancy}
 
-% File information shown at the footer of the last page
-%\fileinfo{%
-%  \faCopyright{} 2018--2019 Weitian LI,
-%  \creativecommons{by}{4.0},
-%  \githublink{liweitianux}{resume},
-%  \faEdit{} \today
-%}
 \newcommand{\Matlab}{\textsc{Matlab}\textregistered }
 \newcommand{\Ansys}{\textsc{Ansys}\textregistered }
 \newcommand{\Mathematica}{\textsc{Mathematica}\textregistered }
@@ -48,40 +42,38 @@
 %======================================================================
 % Summary & Objectives
 %======================================================================
-{\onehalfspacing\hspace{2em}%
-车辆工程（材料和结构方向） 研究生，有扎实的物理、数学与材料学基础，
-擅长结构建模与分析，热衷计算机和网络技术，熟练运用Linux，Git，\LaTeX , Office等常用平台和工具。
-熟悉常用的科学计算软件，熟练掌握 \Matlab 语言编程，熟练掌握\Ansys ，\Solidworks 等常用建模仿真软件。
-积极实践科学探索精神，并积极参与多个项目和比赛。
-\par}
+%{\onehalfspacing\hspace{2em}%
+%车辆工程（材料和结构方向） 研究生，有扎实的物理、数学与材料学基础，
+%擅长结构建模与分析，热衷计算机和网络技术，熟练运用Linux，Git，\LaTeX , Office等常用平台和工具。
+%熟悉常用的科学计算软件，熟练掌握 \Matlab 语言编程，熟练掌握\Ansys ，\Solidworks 等常用建模仿真软件。
+%积极实践科学探索精神，并积极参与多个项目和比赛。
+%\par}
 
 %======================================================================
 \sectionTitle{技能和语言}{\faWrench}
 %======================================================================
+\begin{spacing}{1.4}
 \begin{competences}
   \comptence{专业领域}{%
-    \textbf{新能源汽车}，\textbf{汽车轻量化}，\textbf{振动分析和优化}，\textbf{有限元分析}, MCU系统设计
+    {\large \textbf{新能源汽车}，\quad \textbf{汽车轻量化}，\quad \textbf{模态分析}，\quad \textbf{有限元分析}, \quad MCU系统设计}
   }
   \comptence{编程}{%
-    \textbf{Matlab\textregistered}, \quad Mathematica\textregistered, \quad R\textregistered, \quad Python\textregistered, \quad C++\textregistered
+    {\large \textbf{Matlab\textregistered}, \quad Mathematica\textregistered, \quad R\textregistered, \quad Python\textregistered, \quad C++\textregistered}
   }
   \comptence{工具}{%
-    \textbf{Ansys\textregistered}Products, \quad \textbf{Solidworks\textregistered}, \quad Git, \quad \textbf{\LaTeX}, \quad \Microsoft \textbf{Office}, \quad Freescale\textregistered \textbf{CodeWarrior}
+    {\large \textbf{Ansys\textregistered}Products, \quad \textbf{Solidworks\textregistered}, \quad Git, \quad \textbf{\LaTeX}, \quad \Microsoft \textbf{Office}, \quad Freescale\textregistered \textbf{CodeWarrior}}
   }
-%  \comptence{数据分析}{%
-%    R, Pandas; Matplotlib, ggplot2; Keras, Scikit-learn
-%  }
-%  \comptence{网站开发}{%
-%    Flask, JavaScript, jQuery, Bootstrap
-%  }
+
   \comptence{\icon{\faLanguage} 语言}{
-    \textbf{德语} --- 日常交流及读译专业文献(流利);    \textbf{英语} --- 读写（流利），听说（日常交流）
+    {\large \textbf{德语} --- C1;  \quad  \textbf{英语} --- B1}
   }
 \end{competences}
+\end{spacing}
 
 %======================================================================
 \sectionTitle{教育背景}{\faGraduationCap}
 %======================================================================
+\begin{spacing}{1.4}
 \begin{educations}
 	
 	\education%
@@ -103,16 +95,18 @@
   {硕士}
 
 \end{educations}
+\end{spacing}
 
 %======================================================================
 \sectionTitle{专业技能}{\faCogs}
 %======================================================================
 \begin{itemize}
-  \item \textit{\underline{车辆工程}}： \textbf{汽车轻量化技术}，汽车构造和理论；\textbf{新能源汽车技术}
-  \item \textit{\underline{材料科学}}： \textbf{金属高温热处理技术}，\textbf{摩擦和磨损分析}，金属腐蚀分析和腐蚀防护，仿生材料
-  \item \textit{\underline{力学和运动学}}： \textbf{模态分析}，结构分析和仿真，振动系统分析和仿真
-  \item \textit{\underline{计算机学}}： \textbf{MCU系统的设计和调试}，控制系统的设计和调试
-  \item \textit{\underline{其他}}： \textbf{最优化设计}，神经网络，大数据分析
+	\setlength{\itemsep}{5pt}
+  \item \textit{\underline{{\large 车辆工程}}}：\quad {\large \textbf{汽车轻量化技术}，\quad \textbf{新能源汽车技术}，\quad 汽车构造和理论}
+  \item \textit{\underline{{\large 材料科学}}}： \quad {\large \textbf{金属高温热处理技术}，\quad \textbf{摩擦和磨损分析}，\quad 金属腐蚀分析和腐蚀防护，仿生材料}
+  \item \textit{\underline{{\large 力学和运动学}}}： \quad {\large \textbf{模态分析}，\quad 结构分析和仿真，振动系统分析和仿真}
+  \item \textit{\underline{{\large 计算机学}}}： \quad {\large \textbf{MCU系统的设计和调试}， \quad 控制系统的设计和调试}
+  \item \textit{\underline{{\large 其他}}}： \quad {\large \textbf{最优化设计}，\quad 神经网络，大数据分析}
 \end{itemize}
 
 %%======================================================================
@@ -134,72 +128,41 @@
 \sectionTitle{个人项目}{\faCode}
 %======================================================================
 \begin{itemize}
-	\setlength{\itemsep}{4pt}
+	\begin{spacing}{1.4}
+	\setlength{\itemsep}{12pt}
 	\item 
-	\link{https://github.com/sq43793911/Masterarbeit_public}{\texttt{\textbf{\underline{硕士论文(Masterarbeit)}}}}: 
-	基于偏心误差影响的HSC铣削刀柄的实验和模拟模态分析(Experimentelle und simulative Modalanalyse eines Werkzeugschaftes beim HSC-Fräsen unter Einfluss eines Exzentrizitätsfehlers)。 使用\Matlab 和 \Ansys 及\Solidworks 对HSC铣削刀柄的弯曲振动进行了模拟和实验的模态分析，并分析了偏心误差对于结构固有频率的影响。(\textit{Matlab\textregistered}, \textit{Mathematica\textregistered}, \textit{Ansys\textregistered}, \textit{Solidworks\textregistered}, \textit{\LaTeX}，\textit{FEM})
-	
-	\item 
-	\link{https://github.com/sq43793911/Projektarbeit_public}{\texttt{\textbf{\underline{项目论文(Projektarbeit)}}}}: 
-	基于有限元方法的模态分析(Modalanalyse mit Hilfe der Finite-Elemente-Methode)。使用\Matlab 和 \Ansys 对杆件的轴向和弯曲振动，以及板件的弯曲振动进行了模态分析，并生成模态振型。(\textit{Matlab\textregistered}, \textit{Mathematica\textregistered}, \textit{Ansys\textregistered}, \textit{\LaTeX}，\textit{FEM})
+	\link{https://github.com/sq43793911/Masterarbeit_public}{\texttt{\textbf{\underline{{\large 硕士论文(Masterarbeit)}}}}}: (\textit{Matlab\textregistered}, \textit{Mathematica\textregistered}, \textit{Ansys\textregistered}, \textit{Solidworks\textregistered}, \textit{\LaTeX}，\textit{FEM}, \textit{PULSE LabShop}, \textit{ME'scopeVES})\\
+	\link{https://github.com/sq43793911/Masterarbeit_public}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Masterarbeit\_public }\\[1mm]
+{\large 	\textbf{	基于偏心误差影响的HSC铣削刀柄的实验和模拟模态分析(Experimentelle und simulative Modalanalyse eines Werkzeugschaftes beim HSC-Fräsen unter Einfluss eines Exzentrizitätsfehlers)}。对HSC铣削刀柄的弯曲振动进行了模态分析，并分析了偏心误差对于结构固有频率的影响。仿真模型使用\Matlab 进行构建，并与\Ansys 结果进行比较分析。使用Solidworks进行实验用零件的绘制，使用PULSE LabShop和ME'scopeVES进行实验的测量和分析。}
 	
 	\item 
-	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\texttt{\textbf{\underline{智能算法研究项目}}}}：使用了4种常见的最优化智能算法(遗传、蚁群、免疫、禁忌表算法)对旅行商问题进行分析，比较了各类算法的优缺点以及应用价值。使用遗传算法对工厂订货仓储成本管理进行了最优化分析。基于\Matlab 的分类学习工具箱，研究并实践了数据挖掘中常用的kNN(k最邻近分类算法)和聚类分析的算法。(\textit{Matlab\textregistered})
+	\link{https://github.com/sq43793911/Projektarbeit_public}{\texttt{\textbf{\underline{{\large 项目论文(Projektarbeit)}}}}}:(\textit{Matlab\textregistered}, \textit{Mathematica\textregistered}, \textit{Ansys\textregistered}, \textit{\LaTeX}，\textit{FEM})\\[1mm]
+	\link{https://github.com/sq43793911/Projektarbeit_public}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Projektarbeit\_public }\\[1mm]
+{\large 	\textbf{基于有限元方法的模态分析(Modalanalyse mit Hilfe der Finite-Elemente-Methode)。}使用\Matlab 和 \Ansys 对杆件的轴向和弯曲振动，以及板件的弯曲振动进行了模态分析，并生成模态振型。}
 	
-	\item \link{https://github.com/sq43793911/Balance_Car}{\texttt{\textbf{\underline{二轮平衡车}}}}：基于飞思卡尔智能车大赛要求设计并制作的两轮平衡车，具有赛道自动识别和控制功能。控制系统基于Freescale\textregistered S12X微控制器，使用CCD摄像头进行赛道识别。(\textit{Freescale\textregistered CodeWarrior}, \textit{Freescale\textregistered S12X}, \textit{CCD})
+	\item 
+	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\texttt{\textbf{\underline{{\large 智能算法研究项目}}}}}：(\textit{Matlab\textregistered})\\[1mm]
+	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Intelligent-Algorithms }\\[1mm]
+{\large 	$ \mathbf{a)}  $使用了4种常见的最优化智能算法(遗传、蚁群、免疫、禁忌表算法)对旅行商问题进行分析，比较了各类算法的优缺点以及应用价值。\\
+	$ \mathbf{b)}  $使用遗传算法对工厂订货仓储成本管理进行了最优化分析。\\
+	$ \mathbf{c)}  $基于\Matlab 的分类学习工具箱，研究并实践了数据挖掘中常用的kNN(k最邻近分类算法)和聚类分析的算法。}
 	
-	\item \link{https://github.com/sq43793911/Construction_Analysis}{\texttt{\textbf{\underline{常见弹性振动系统分析}}}}：分析了无阻尼振动，有阻尼振动，Maxwell模型的时域特性，受激励之后的响应特性，并生成相应图像。(\textit{Matlab\textregistered})
+	\item \link{https://github.com/sq43793911/Balance_Car}{\texttt{\textbf{\underline{{\large 二轮平衡车}}}}}：(\textit{Freescale\textregistered CodeWarrior}, \textit{Freescale\textregistered S12X}, \textit{C}, \textit{CCD})\\[1mm]
+	\link{https://github.com/sq43793911/Balance_Car}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Balance\_Car }\\[1mm]
+{\large 	基于飞思卡尔智能车大赛要求设计并制作的两轮平衡车，具有赛道自动识别和控制功能。控制系统基于Freescale\textregistered S12X微控制器，使用CCD摄像头进行赛道识别。}
 	
+	\item \link{https://github.com/sq43793911/Construction_Analysis}{\texttt{\textbf{\underline{{\large 常见弹性振动系统分析}}}}}：(\textit{Matlab\textregistered})\\[1mm]
+	\link{https://github.com/sq43793911/Construction_Analysis}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Construction\_Analysis }\\[1mm]
+{\large 	分析了无阻尼振动，有阻尼振动，Maxwell模型的时域特性，受激励之后的响应特性，并生成相应图像。}
 	
+	\item \link{https://github.com/sq43793911/resume}{\texttt{\textbf{\underline{{\large 个人简历:}}}}}(\textit{\LaTeX})\\[1mm]
+	\link{https://github.com/sq43793911/resume}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/resume }\\[1mm]
+	{\large  使用\LaTeX 进行了这个简历的制作，学习了\LaTeX 的基本功能和使用方法。}
+	
+\end{spacing}
   		
 \end{itemize}
 
 \clearpage
-
-%======================================================================
-% Internships
-%\sectionTitle{实习经历}{\faBriefcase}
-%======================================================================
-%\begin{experiences}
-%	\experience
-%	[2018.04]%
-%	{2018.08}%
-%	{数据工程师 @ 上海领脉网络科技（初创公司）}%
-%	[\begin{itemize}
-%		\item 从 Amazon 网页搜索并挖取商品与广告信息
-%		（Python, Requests, BeautifulSoup）
-%		\item 配置 Airflow 服务器和数据库等基础设施，定期从 Amazon 获取
-%		产品销售与广告投放等数据
-%		\item 开发网站（Flask, jQuery），帮助客户优化 Amazon 广告投放
-%	\end{itemize}]%
-%	
-%	\separator{0.5em}
-%	\experience
-%	[2013.07]%
-%	{2013.09}%
-%	{网站开发 @ 97 随访（初创公司）}%
-%	[\begin{itemize}
-%		\item 后端开发（Django），完成用户注册、数据存储和搜索等功能
-%		\item 前端开发（jQuery, AJAX），对患者各项指标随时间的变化进行可视化
-%	\end{itemize}]%
-%\end{experiences}
-
-
-%======================================================================
-% Awards / Scholarships / Certificates
-%\sectionTitle{获奖及证书}{\faHeart}
-%======================================================================
-%\begin{entries}
-%	\entry{2016.09}%
-%	{第十三届全国研究生数学建模竞赛 \textbullet 成功参与奖}
-%	\entry{2014.07}%
-%	{大学物理优秀助教}
-%	\entry{2013.11}%
-%	{上海交通大学优秀博士新生奖学金}
-%	\entry{2011.12}%
-%	{国家天文台奖学金}
-%	\entry{2011.09}%
-%	{全国计算机等级考试 \textbullet 四级网络工程师}
-%\end{entries}
 
 \end{document}

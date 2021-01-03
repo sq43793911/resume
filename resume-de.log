@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  6 NOV 2020 12:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.18)  3 JAN 2021 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1643,17 +1643,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-
-LaTeX Font Warning: Font shape `TU/IBMPlexSerif(0)/m/sc' undefined
-(Font)              using `TU/IBMPlexSerif(0)/m/n' instead on input line 49.
-
-
-Overfull \hbox (9.00005pt too wide) in paragraph at lines 49--50
-[]\TU/IBMPlexSerif(0)/m/sc/12 Master \TU/IBMPlexSerif(0)/bx/sc/12 Fahrzeugbau: 
-Werkstoffe und Komponenten \TU/IBMPlexSerif(0)/m/sc/12 mit guten Grundlagen in 
-Physik, Math-
- []
-
 Package microtype Info: Character `,' is missing
 (microtype)             in font `\TU/FontAwesome5FreeSolid(0)/m/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1753,6 +1742,11 @@ Package microtype Info: Character `\textless ' is missing
 Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/FontAwesome5FreeSolid(0)/m/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
+
+
+LaTeX Font Warning: Font shape `TU/IBMPlexSerif(0)/m/sc' undefined
+(Font)              using `TU/IBMPlexSerif(0)/m/n' instead on input line 63.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1873,44 +1867,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--99
 
  []
 
-[1
 
-]
-Overfull \hbox (2.10242pt too wide) in paragraph at lines 132--134
+Overfull \hbox (2.10242pt too wide) in paragraph at lines 132--135
 [][][]\TU/IBMPlexSerif(0)/bx/sc/12 Experimentelle und simulative Modalanalyse e
 ines Werkzeugschaftes beim HSC-Frä-
  []
 
+[1
 
-Overfull \hbox (0.20108pt too wide) in paragraph at lines 135--137
+]
+Overfull \hbox (0.20108pt too wide) in paragraph at lines 136--139
 [][][]\TU/IBMPlexSerif(0)/bx/sc/12 Modalanalyse mit Hilfe der Finite-Elemente-M
 ethode. \TU/IBMPlexSerif(0)/m/sc/12 Im Rahmen der ausgeschriebe-
  []
 
 
-Overfull \hbox (13.0464pt too wide) in paragraph at lines 135--137
+Overfull \hbox (13.0464pt too wide) in paragraph at lines 136--139
 \TU/IBMPlexSerif(0)/m/sc/12 nen Arbeit ist ein Programm zur numerischen Modalan
 alyse mittels der Finite-Elemente-
  []
 
 
-Overfull \hbox (8.28963pt too wide) in paragraph at lines 146--148
+Overfull \hbox (8.28963pt too wide) in paragraph at lines 150--153
 [][][]\TU/IBMPlexSerif(0)/m/sc/12 Ungedämpfte Schwingungen, gedämpfte Schwingun
 gen, die Zeitbereichseigenschaften
  []
 
 
-Overfull \hbox (4.8184pt too wide) in paragraph at lines 146--148
+Overfull \hbox (4.8184pt too wide) in paragraph at lines 150--153
 \TU/IBMPlexSerif(0)/m/sc/12 des Maxwell-Modells und die Reaktionseigenschaften 
 nach der Anregung werden analy-
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./resume-de.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `resume-de.out' has not changed.
 (rerunfilecheck)             Checksum: CC3381C601EF61270D9B1470A52CDAB8.
 
@@ -1921,10 +1915,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  36750 strings out of 492970
  729833 string characters out of 6137298
- 882499 words of memory out of 5000000
+ 884499 words of memory out of 5000000
  40323 multiletter control sequences out of 15000+600000
  533818 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,11n,87p,10403b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,87p,10403b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume-de.pdf (2 pages).

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  19 APR 2021 18:26
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  19 APR 2021 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume-zh.tex
-(./resume-zh.tex
+**resume-zh-2.tex
+(./resume-zh-2.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./resume.cls
 Document Class: resume 2019/05/14 v2.4.4 Resume Class
@@ -922,8 +922,8 @@ Package fontspec Info: Font family 'SourceHanSerifSC(0)' created for font
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./resume-zh.aux)
-\openout1 = `resume-zh.aux'.
+ (./resume-zh-2.aux)
+\openout1 = `resume-zh-2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
@@ -1086,9 +1086,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
- (./resume-zh.out) (./resume-zh.out)
+ (./resume-zh-2.out) (./resume-zh-2.out)
 \@outlinefile=\write6
-\openout6 = `resume-zh.out'.
+\openout6 = `resume-zh-2.out'.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceHanSerifSC' (encoding: TU).
@@ -1318,16 +1318,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-
-LaTeX Font Warning: Font shape `TU/IBMPlexSerif(0)/m/sc' undefined
-(Font)              using `TU/IBMPlexSerif(0)/m/n' instead on input line 46.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 47.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 47.
 Package microtype Info: Character `,' is missing
 (microtype)             in font `\TU/fontawesomefree/solid/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1428,57 +1418,63 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/fontawesomefree/solid/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--70
+
+LaTeX Font Warning: Font shape `TU/IBMPlexSerif(0)/m/sc' undefined
+(Font)              using `TU/IBMPlexSerif(0)/m/n' instead on input line 62.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 62.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 62.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 62.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--72
 
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 76--97
+Overfull \hbox (0.4pt too wide) in paragraph at lines 78--99
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--97
+Underfull \hbox (badness 10000) in paragraph at lines 78--99
 
  []
 
 
-Overfull \hbox (0.4pt too wide) in alignment at lines 104--112
+Overfull \hbox (0.4pt too wide) in alignment at lines 106--114
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--131
+Underfull \hbox (badness 10000) in paragraph at lines 122--133
 
  []
-
-
-LaTeX Font Warning: Font shape `TU/SourceHanSerifSC(0)/m/it' undefined
-(Font)              using `TU/SourceHanSerifSC(0)/m/n' instead on input line 13
-9.
 
 [1
 
 ] [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
- (./resume-zh.aux)
+ (./resume-zh-2.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
-Package rerunfilecheck Info: File `resume-zh.out' has not changed.
-(rerunfilecheck)             Checksum: 2C4BDA3569E6E7852A7AF41410EA412D;288.
+Package rerunfilecheck Info: File `resume-zh-2.out' has not changed.
+(rerunfilecheck)             Checksum: 322A939B97C59D7ACD5E5B5ABFEBEAA3;241.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30969 strings out of 479418
- 643157 string characters out of 5884585
- 1018818 words of memory out of 5000000
- 47964 multiletter control sequences out of 15000+600000
- 536012 words of font info for 94 fonts, out of 8000000 for 9000
+ 30962 strings out of 479418
+ 642964 string characters out of 5884585
+ 1021824 words of memory out of 5000000
+ 47959 multiletter control sequences out of 15000+600000
+ 536004 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,11n,91p,1198b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,91p,1200b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume-zh.pdf (2 pages).
+Output written on resume-zh-2.pdf (2 pages).

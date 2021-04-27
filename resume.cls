@@ -13,7 +13,7 @@
 %%
 
 \ProvidesClass{resume}[2019/05/14 v2.4.4 Resume Class]
-\LoadClass{article}
+\LoadClass[8pt]{extarticle}
 
 %%
 %% Class options
@@ -28,8 +28,8 @@
 %%
 
 \RequirePackage[%
-  a4paper,%
-  lmargin=1.5cm,rmargin=1.5cm,top=1.3cm,bottom=0.4cm,%
+  a4paper, %
+  lmargin=1.5cm,rmargin=1.5cm,top=1.3cm,bottom=0.5cm,%
   includefoot,
 ]{geometry}
 \RequirePackage{xparse}

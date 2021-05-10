@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  10 MAY 2021 15:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  10 MAY 2021 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume-zh.tex
-(./resume-zh.tex
+**resume-zh-MCU.tex
+(./resume-zh-MCU.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./resume.cls
 Document Class: resume 2019/05/14 v2.4.4 Resume Class
@@ -931,8 +931,8 @@ Package fontspec Info: Font family 'SourceHanSerifSC(0)' created for font
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./resume-zh.aux)
-\openout1 = `resume-zh.aux'.
+ (./resume-zh-MCU.aux)
+\openout1 = `resume-zh-MCU.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -1095,9 +1095,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
- (./resume-zh.out) (./resume-zh.out)
+ (./resume-zh-MCU.out) (./resume-zh-MCU.out)
 \@outlinefile=\write6
-\openout6 = `resume-zh.out'.
+\openout6 = `resume-zh-MCU.out'.
 
 File: Bild02.jpg Graphic file (type bmp)
 <Bild02.jpg>
@@ -1464,19 +1464,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--204
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
- (./resume-zh.aux)
+ (./resume-zh-MCU.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
-Package rerunfilecheck Info: File `resume-zh.out' has not changed.
+Package rerunfilecheck Info: File `resume-zh-MCU.out' has not changed.
 (rerunfilecheck)             Checksum: 47D9CACAA791D10CDD3F6DA859F2FFCD;241.
  ) 
 Here is how much of TeX's memory you used:
  31000 strings out of 479418
- 644789 string characters out of 5884585
- 1032039 words of memory out of 5000000
+ 644849 string characters out of 5884585
+ 1032051 words of memory out of 5000000
  47997 multiletter control sequences out of 15000+600000
  535453 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,11n,91p,1198b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,91p,1202b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume-zh.pdf (1 page).
+Output written on resume-zh-MCU.pdf (1 page).

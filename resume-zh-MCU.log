@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  10 MAY 2021 15:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.4.18)  11 MAY 2021 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1471,10 +1471,10 @@ Package rerunfilecheck Info: File `resume-zh-MCU.out' has not changed.
 (rerunfilecheck)             Checksum: 47D9CACAA791D10CDD3F6DA859F2FFCD;241.
  ) 
 Here is how much of TeX's memory you used:
- 31000 strings out of 479418
- 644849 string characters out of 5884585
+ 30989 strings out of 479418
+ 644092 string characters out of 5884585
  1032051 words of memory out of 5000000
- 47997 multiletter control sequences out of 15000+600000
+ 47986 multiletter control sequences out of 15000+600000
  535453 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,11n,91p,1202b,558s stack positions out of 5000i,500n,10000p,200000b,80000s

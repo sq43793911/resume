@@ -5,7 +5,7 @@
 
 % English version
 \documentclass{resume}
-\pagestyle{fancy}
+%\pagestyle{fancy}
 
 %\newcommand{\Matlab}{\textsc{Matlab}\textsuperscript{\textregistered} }
 %\newcommand{\Ansys}{\textsc{Ansys}\textsuperscript{\textregistered} }
@@ -21,8 +21,7 @@
 
 % \tagline{\icon{\faBinoculars}} <position-to-look-for>}
 % \tagline{<current-position>}
-
-% \photo{<height>}{<filename>}
+\photo{2cm}{Bild02}
 
 \profile{
   \mobile{+86 136-5168-6379}
@@ -40,125 +39,155 @@
 \begin{document}
 \makeheader
 
-\bigskip
-
 %======================================================================
 % Summary & Objectives
 %======================================================================
 Automotive Manufacturing (Materials and Components) graduate student with solid foundation in vehicle engineering, mechanics, materials science, vibration science and embedded system, good at structural modeling, finite element analysis, modal analysis and embedded system design, proficient in programming and modeling of Matlab and Simulik, and ANSYS,  proficient in Linux, Git, LaTeX, Office and other common platforms and tools. With more than 4 years of study experience in Germany, excellent communication skills in German, excellent master's performance in school, active practice of scientific exploration spirit, and actively participate in a number of projects and competitions.
-
-\bigskip
 
 
 
 %======================================================================
 \sectionTitle{Education}{\faGraduationCap}
 %======================================================================
-\begin{spacing}{1.3}
+
 	\begin{educations}
 		\education%
-		{{\large 07.2014}}%
-		[{\large 09.2010}]%
-		{{\large Liaocheng University}}%
-		{{\large School of Mechanical and Automotive Engineering}}%
-		{\textbf{{\large Automotive Engineering}}}%
-		{{\large Bachelor}}
+		{07.2014}%
+		[09.2010]%
+		{Liaocheng University}%
+		{School of Mechanical and Automotive Engineering}%
+		{Automotive Engineering}%
+		{\textbf{Bachelor}}
 		
-		\separator{1ex}
+	 \separator{0.1ex}
 		
 		\education%
-		{{\large 07.2020}}%
-		[{\large 10.2016}]%
-		{{\large Technische Universität Bergakademie Freiberg}}%
-		{{\large Faculty 5 - Materials Science and Technology}}%
-		{\textbf{{\large Automotive Construction: Materials and Components}}}%
-		{{\large Master}}
+		{07.2020}%
+		[10.2016]%
+		{Technische Universität Bergakademie Freiberg}%
+		{Faculty 5 - Materials Science and Technology}%
+		{Automotive Construction: Materials and Components}%
+		{\textbf{Master}}
 	\end{educations}
-\end{spacing}
 
-\bigskip
 
-%======================================================================
-\sectionTitle{Skills}{\faCogs}
-%======================================================================
-\begin{itemize}
-	\setlength{\itemsep}{4pt}
 
-	\item {\large \textit{\underline{Vehicle technology}}\hspace{1mm}:}\\[1.5mm]
-	{\large \textbf{Light-weight manufacture}, \hspace{1mm} \textbf{New energy vehicle technology}, \hspace{1mm} Automotive
-		Lightweight Technology}
-	
-	\item {\large \textit{\underline{Materials engineering}}\hspace{1mm}:}\\[1.5mm]
-	{\large \textbf{High temperature materials technology}, \hspace{1mm} Material processing and foundry, \hspace{1mm} Bionics}
-	
-	\item {\large \textit{\underline{Mechanics and Dynamics}}\hspace{1mm}:} \\[1.5mm]
-	{\large \textbf{Modalanalysis},\hspace{1mm} Structural analysis and simulation,\hspace{1mm} Dynamics analysis and vibration simulation}
-	
-	\item {\large \textit{\underline{Computer science}}\hspace{1mm}:} \\[1.5mm]
-	{\large \textbf{Design and debugging of MCU-system}, Design and debugging of control system.}
-	
-	\item {\large \textit{\underline{Others}}\hspace{1mm}:} \\[1.5mm]
-	{\large \textbf{Optimization design},\hspace{1mm} Neural-network and deep learning, \hspace{1mm} Big-data-analysis.}
-	
-\end{itemize}
+
+%%======================================================================
+%\sectionTitle{Skills}{\faCogs}
+%%======================================================================
+%\begin{itemize}
+%	\setlength{\itemsep}{4pt}
+%
+%	\item {\large \textit{\underline{Vehicle technology}}\hspace{1mm}:}\\[1.5mm]
+%	{\large \textbf{Light-weight manufacture}, \hspace{1mm} \textbf{New energy vehicle technology}, \hspace{1mm} Automotive
+%		Lightweight Technology}
+%	
+%	\item {\large \textit{\underline{Materials engineering}}\hspace{1mm}:}\\[1.5mm]
+%	{\large \textbf{High temperature materials technology}, \hspace{1mm} Material processing and foundry, \hspace{1mm} Bionics}
+%	
+%	\item {\large \textit{\underline{Mechanics and Dynamics}}\hspace{1mm}:} \\[1.5mm]
+%	{\large \textbf{Modalanalysis},\hspace{1mm} Structural analysis and simulation,\hspace{1mm} Dynamics analysis and vibration simulation}
+%	
+%	\item {\large \textit{\underline{Computer science}}\hspace{1mm}:} \\[1.5mm]
+%	{\large \textbf{Design and debugging of MCU-system}, Design and debugging of control system.}
+%	
+%	\item {\large \textit{\underline{Others}}\hspace{1mm}:} \\[1.5mm]
+%	{\large \textbf{Optimization design},\hspace{1mm} Neural-network and deep learning, \hspace{1mm} Big-data-analysis.}
+%	
+%\end{itemize}
 
 %======================================================================
 \sectionTitle{Personal Projects}{\faCode}
 %======================================================================
 \begin{itemize}
-	\begin{spacing}{1.4}
-	\setlength{\itemsep}{12pt}
+
+	%\begin{spacing}{1.5}
+	%\setlength{\itemsep}{12pt}
+	\item \link{https://github.com/sq43793911/Balance_Car}{\texttt{\textbf{Research on Embedded Control System: }}}%(\textit{Freescale CodeWarrior}, \textit{Freescale S12X}, \textit{Freescale K60}，\textit{C++}, \textit{CCD})\\[1mm]
+	\link{https://github.com/sq43793911/Balance_Car}{\githubSymbol https://github.com/sq43793911/Balance\_Car }\\
+	$\mathbf{a)}$ \textbf{Freescale Smart-Car Cup: }A two-wheeled balancing car designed and manufactured based on the requirements of Freescale Smart Car Cup, with automatic track identification and control functions. The control system is based on the Freescale S12X microcontroller and uses electromagnetic induction principle to identify the track. Learned the basic principle of embedded system design and the realization method of common control algorithm, and had a deeper understanding of the practical application of microcontroller.\\
+	$\mathbf{b)}$ \textbf{Bachelor-Thesis: }The Freescale K60 MCU is used as the control core and the CCD camera as the acquisition device. Based on the previous study, the redesigned and manufactured two-wheel balancing vehicle can identify the route or track by analyzing the camera information. The working principle and application method of 32-bit controller and the image acquisition and analysis method of CCD camera are studied and studied deeply.
+	
 	\item 
-	\link{https://github.com/sq43793911/Masterarbeit_public}{\texttt{\textbf{\underline{{\large Master thesis:}}}}} (\textit{Matlab\textregistered}, \textit{Mathematica\textregistered}, \textit{Ansys\textregistered}, \textit{Solidworks\textregistered}, \textit{\LaTeX}, \textit{FEM}, \textit{PULSE LabShop}, \textit{ME'scopeVES})\\[1mm]
-	\link{https://github.com/sq43793911/Masterarbeit_public}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Masterarbeit\_public }\\
-	\link{https://github.com/sq43793911/Masterarbeit_public}{\color{black} {\large \textbf{Experimental and simulative modal analysis of a tool shank during HSC milling and the influence of an eccentricity error.} In the context of the advertised work, the dynamic behaviour of a tool shaft in HSC milling must be investigated. The influence of an unbalance (eccentricity) should be in the foreground. In addition to the simulation, an experimental study will also be carried out. For this purpose, an experimental device must be designed, manufactured and put into operation. The FE simulation is performed with Matlab. In addition, the CAD program Solidworks is used to design the components. PULSE LabShop and ME'scopeVES are used for the measurement.}}
+	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\texttt{\textbf{Intelligent algorithm research project: }}}%(\textit{Matlab})\\[1mm]
+	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\githubSymbol https://github.com/sq43793911/Intelligent-Algorithms }\\
+	$ \mathbf{a)}  $ \textbf{Matlab modeling algorithm: } Using Matlab to make 4 kinds of common intelligent optimization algorithms (genetic and ant colony optimization, immune, tabu table) modeling, and the traveling salesman problem solving respectively, to study the basic principle of the intelligent optimization algorithms and mathematical modeling method, compares the advantages and disadvantages of various algorithms and application value, convenient accordingly after choice of the algorithm.\\
+	$ \mathbf{b)}  $ \textbf{Matlab genetic algorithm modeling: } Based on the theory of economic batch model, optimized the warehouse cost management of the factory by using genetic algorithm, and independently completed the theoretical analysis and mathematical modeling of the whole system, as well as the compilation of all the codes in MATLAB. \\
+	$ \mathbf{c)}  $ \textbf{Deep learning: } Based on classified learning toolbox of MATLAB, studied and practiced the algorithms of KNN (K-nearest neighbor classification algorithm) and cluster analysis which commonly used in data mining, and learned the basic principles and methods of neural network.
 	
-	\item \link{https://github.com/sq43793911/Projektarbeit_public}{\texttt{\textbf{\underline{{\large Project work:}}}}} (\textit{Matlab\textregistered, Mathematica\textregistered, Ansys\textregistered, \LaTeX, FEM})\\[1mm]
-	\link{https://github.com/sq43793911/Projektarbeit_public}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Projektarbeit\_public }\\
-	\link{https://github.com/sq43793911/Projektarbeit_public}{\color{black} {\large \textbf{Modalanalysis with the Finite-Element-Method.} As part of the advertised work, a program for numerical modal analysis using the finite element method is to be developed. The FE simulation is performed with Matlab. In addition, the FE-software Ansys is used to compare the results.}}
+	\item 
+	\link{https://github.com/sq43793911/Masterarbeit_public}{\texttt{\textbf{Master Thesis: }}} %(\textit{Matlab}, \textit{Mathematica}, \textit{Ansys}, \textit{Solidworks}, \textit{\LaTeX}，\textit{FEM}, \textit{PULSE LabShop}, \textit{ME'scopeVES})\\
+	\link{https://github.com/sq43793911/Masterarbeit_public}{\githubSymbol https://github.com/sq43793911/Masterarbeit\_public }\\
+	\textbf{Experimental and Simulation Modal Analysis of Milling Tool Shank Based on Eccentric Error in High Speed Cutting.} The modal analysis of bending vibration of milling tool shank in high speed cutting is carried out, and the effect of eccentricity error on the natural frequency of the structure is analyzed. By learning the basic method of nonlinear finite element, an effective method for modal analysis of high-speed moving objects was proposed, and the modeling of modal analysis of nonlinear finite element was completed independently, and the experimental research method of modal analysis and the use of commonly used experimental software were also learned.
+	To undertake all the tasks, the simulation model was constructed by using Matlab and compared with ANSYS results. SolidWorks was used to draw the experimental parts, and Pulse Labshop and Me 'Scopeves were used to measure and analyze the experiment.
 	
-	\item \link{https://github.com/sq43793911/Intelligent-Algorithms}{\texttt{\textbf{\underline{{\large Research project for intelligent algorithms:}}}}}(\textit{Matlab\textregistered})\\[1mm]
-	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Intelligent-Algorithms }\\
-	\link{https://github.com/sq43793911/Intelligent-Algorithms}{\color{black} {\large $ \mathbf{a)}  $ Four popular intelligent optimization algorithms (genetic, ant colonial, immune, tabular table algorithm) are used to analyze the TSP and the advantages and disadvantages of different algorithms and their application value are compared. \\[1mm]
-			$ \mathbf{b)}  $ The genetic algorithm is used to optimize the analysis of cost management for warehouse storage and ordering. \\[1mm]
-			$ \mathbf{c)}  $ Based on Matlab's Classifacation Learner Toolbox, kNN(k Nearest Neighbour Classification Algorithm) and cluster analysis algorithms are studied and practiced, which are commonly used in data mining.}}
-	
-	\item \link{https://github.com/sq43793911/Balance_Car}{\texttt{\textbf{\underline{{\large Balance Car:}}}}}(\textit{Freescale\textregistered CodeWarrior, Freescale\textregistered S12X, C, CCD}) \\[1mm]
-	\link{https://github.com/sq43793911/Balance_Car}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Balance\_Car }\\
-	\link{https://github.com/sq43793911/Balance_Car}{\color{black} {\large A two-wheeled self-balance vehicle designed and manufactured on the requirements of the Freescale Smart Car Cup and with automatic lane detection and control functions. The control system is based on the Freescale S12X microcontroller and uses a CCD camera for track detection. }}
-	
-	\item \link{https://github.com/sq43793911/Construction_Analysis}{\texttt{\textbf{\underline{{\large Analyzing of vibration systems:}}}}}(\textit{Matlab\textregistered})\\[1mm]
-	\link{https://github.com/sq43793911/Construction_Analysis}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Construction\_Analysis }\\
-	\link{https://github.com/sq43793911/Construction_Analysis}{\color{black} {\large Undamped vibrations, damped vibrations, the time domain properties of the Maxwell model and the reaction properties after the excitation are analyzed and the corresponding images are generated.}}
-	
-	\item \link{https://github.com/sq43793911/resume}{\texttt{\textbf{\underline{{\large Resume:}}}}}(\textit{\LaTeX})\\[1mm]
-	\link{https://github.com/sq43793911/resume}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/resume }\\
-	\link{https://github.com/sq43793911/resume}{\color{black} {\large This resume was crafted using \LaTeX  and learned the basic functions and usage of \LaTeX.}}
-\end{spacing}
+	\item 
+	\link{https://github.com/sq43793911/Projektarbeit_public}{\texttt{\textbf{Project Paper: }}}: %(\textit{Matlab}, \textit{Mathematica}, \textit{Ansys}, \textit{\LaTeX}，\textit{FEM})\\[1mm]
+	\link{https://github.com/sq43793911/Projektarbeit_public}{\githubSymbol https://github.com/sq43793911/Projektarbeit\_public }\\
+	\textbf{Modal analysis based on finite element method. } Through this project, I learned the mathematical modeling method of finite element and the method of modal analysis, as well as the application method of ANSYS.
+	Undertake all the tasks, using Matlab and ANSYS to carry out modal analysis of the axial and bending vibration of the rod, as well as the bending vibration of the plate, and generate the mode shape.
+
+
+
+%	\item \link{https://github.com/sq43793911/Construction_Analysis}{\texttt{\textbf{\underline{ 常见弹性振动系统分析}}}}：(\textit{Matlab})\\[1mm]
+%	\link{https://github.com/sq43793911/Construction_Analysis}{\githubSymbol $ \Rightarrow $ https://github.com/sq43793911/Construction\_Analysis }\\[1mm]
+%    分析了无阻尼振动，有阻尼振动，Maxwell模型的时域特性，受激励之后的响应特性，并生成相应图像。
+
+%	\item \link{https://github.com/sq43793911/resume}{\texttt{\textbf{个人简历:}}}%(\textit{\LaTeX})
+%	\link{https://github.com/sq43793911/resume}{\githubSymbol https://github.com/sq43793911/resume }\\
+%	使用\LaTeX 进行了这个简历的制作，学习了\LaTeX 的基本功能和使用方法。
+
+%\end{spacing}
 
 \end{itemize}
 
 %======================================================================
+\sectionTitle{Internships}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+	\experience%
+	[August 2016]%
+	{August 2015}%
+	{After-sales service @ Shandong Luhu Automobile Sales Co., Ltd}%
+	[\begin{itemize}
+		\item Trainee in after-sales service, participated in fault troubleshooting, repair and technical analysis, and was responsible for processing, input and filing of relevant after-sale information of vehicles, which improved the understanding and understanding of various systems of automobiles, skillfully used office software such as WORD and EXCEL, and got familiar with the basic process and fault troubleshooting methods of after-sale automobiles.
+	\end{itemize}]
+	
+%	\separator{0.5ex}
+%	\experience%
+%	[July 2013]%
+%	{September 2013}%
+%	{Web Developer @ 97 Suifang (startup company)}%
+%	[\begin{itemize}
+%		\item Developed the back-end (Django) to support user registration,
+%		data storage and search.
+%		\item Developed the front-end (jQuery, AJAX) to visualize the
+%		temporal variations of a patient's examination indicators.
+%	\end{itemize}]
+\end{experiences}
+
+
+%======================================================================
 \sectionTitle{Competences \& Languages}{\faWrench}
 %======================================================================
-\begin{spacing}{1.4}
 	\begin{competences}[10em]
 		\comptence{Area of expertise}{
-			\textbf{New-energy vehicles}, \quad \textbf{FEM}, \quad \textbf{Modalanalysis}, \quad  \textbf{Light-weight manufacture}, \quad MCU-System
+			\textbf{New-energy vehicles}, \quad \textbf{FEM}, \quad \textbf{Modalanalysis}, \quad  \textbf{Light-weight manufacture}, \quad \textbf{MCU-System}
 		}
 		\comptence{ Programming}{%
-			\textbf{Matlab}, \quad Mathematica, \quad R, \quad Python\textregistered, \quad C
+			\textbf{Matlab}, \quad Mathematica, \quad C++
 		}
 		
 		\comptence{ Tools}{%
-			\textbf{Ansys} Products, \quad \textbf{Solidworks}, \quad Git, \quad \textbf{\LaTeX}, \quad Microsoft \textbf{Office}, \quad Freescale \textbf{CodeWarrior}, \quad IAR\textregistered Embedded Workbench
+			\textbf{Ansys} , \quad \textbf{Solidworks}, \quad Git, \quad \textbf{\LaTeX}, \quad \textbf{Office}, \quad Freescale \textbf{CodeWarrior}, \quad IAR Embedded Workbench
 		}
 		
 		\comptence{\icon{\faLanguage}  Languages}{
-			\textbf{Germany} --- C1;  \quad   \textbf{English} --- B1
+			\textbf{Germany} --- Negotiation;  \quad   \textbf{English} --- Mastery(CET-4)
 		}
 	\end{competences}
-\end{spacing}
+
 
 \clearpage
 
